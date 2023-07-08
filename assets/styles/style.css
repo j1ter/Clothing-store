@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #22262a;
+  font: 400 15px/22px "Poppins", "Arial", Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+button {
+  display: block;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #22262a;
+}
+
+.btn-primary:hover {
+  background-color: #df51c9;
+}
+
+/*Header*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header__title {
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.header-nav__item {
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.header-nav__item:last-child {
+  margin-right: 0;
+}
+
+.header-user__item {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.header-user__item:last-child {
+  margin-right: 0;
+}
+
+.header a:hover,
+.header button:hover {
+  color: #df51c9;
+}
